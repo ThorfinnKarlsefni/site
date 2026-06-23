@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CaptionPic Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for CaptionPic, a photo annotation app for iPhone.">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #09090c;
+      --panel: rgba(255, 255, 255, 0.08);
+      --line: rgba(255, 255, 255, 0.14);
+      --text: #fff7eb;
+      --muted: rgba(255, 247, 235, 0.66);
+      --gold: #ffc45d;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: ui-rounded, "SF Pro Rounded", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 10% 12%, rgba(255, 196, 93, 0.18), transparent 26rem),
+        radial-gradient(circle at 86% 76%, rgba(158, 197, 255, 0.12), transparent 28rem),
+        var(--bg);
+      color: var(--text);
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .brand {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      font-weight: 850;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+    }
+
+    .pill {
+      padding: 11px 16px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 750;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 44px 24px 72px;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 12px 0 0;
+      font-size: clamp(42px, 8vw, 72px);
+      line-height: 0.98;
+      letter-spacing: 0;
+    }
+
+    .updated {
+      margin-top: 18px;
+      color: var(--muted);
+      font-weight: 650;
+    }
+
+    .policy {
+      margin-top: 34px;
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: var(--panel);
+    }
+
+    h2 {
+      margin: 30px 0 10px;
+      font-size: 22px;
+    }
+
+    h2:first-child { margin-top: 0; }
+
+    p, li {
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.65;
+      font-weight: 600;
+    }
+
+    ul {
+      margin: 10px 0 0;
+      padding-left: 22px;
+    }
+
+    strong { color: var(--text); }
+
+    footer {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px 36px;
+      color: rgba(255, 247, 235, 0.46);
+      font-size: 14px;
+      font-weight: 650;
+    }
+
+    footer a {
+      color: rgba(255, 247, 235, 0.72);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    @media (max-width: 640px) {
+      .nav { padding: 18px; }
+      main { padding: 32px 18px 56px; }
+      .policy { padding: 22px; border-radius: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <img src="assets/photo-notes-app-icon-master.png" alt="CaptionPic app icon">
+      <span>CaptionPic</span>
+    </a>
+    <a class="pill" href="index.html">Home</a>
+  </nav>
+
+  <main>
+    <div class="eyebrow">Privacy Policy</div>
+    <h1>Your photos stay personal.</h1>
+    <p class="updated">Last updated: June 23, 2026</p>
+
+    <section class="policy">
+      <h2>Overview</h2>
+      <p>CaptionPic helps you turn photos into annotated visual diary images. We designed the app to collect as little information as possible. The app does not require an account, does not track you across apps or websites, and does not sell personal information.</p>
+
+      <h2>Information the app uses</h2>
+      <ul>
+        <li><strong>Photos you choose:</strong> When you select or take a photo, the app uses that photo to create the generated CaptionPic image.</li>
+        <li><strong>Generated images:</strong> The app may store your most recent generated images locally on your device so you can revisit them inside the app.</li>
+        <li><strong>Quota and plan status:</strong> The app stores local generation-count and plan-status information on your device to manage free, Plus, and Pro usage.</li>
+        <li><strong>Purchases:</strong> Subscription purchases are processed by Apple through the App Store. We do not receive your payment card details.</li>
+      </ul>
+
+      <h2>Photo generation provider</h2>
+      <p>To create an annotated result, CaptionPic sends the photo you choose, together with a generation prompt, to a third-party image generation provider, currently Volcengine/Doubao. The provider returns the generated image to the app. Do not use CaptionPic with photos that contain information you do not want processed by an external generation service.</p>
+
+      <h2>Camera and photo library access</h2>
+      <p>CaptionPic asks for camera and photo library permissions only so you can take a photo, choose a photo, or save a generated image. The app does not scan your full photo library in the background.</p>
+
+      <h2>Local storage</h2>
+      <p>Recent generated images, quota information, and plan cache data may be stored on your device using app storage such as Application Support, UserDefaults, and Keychain. You can remove locally stored app data by deleting the app from your device.</p>
+
+      <h2>Analytics and advertising</h2>
+      <p>CaptionPic does not include third-party advertising SDKs and does not use third-party tracking for advertising. The current version does not use analytics SDKs.</p>
+
+      <h2>Children</h2>
+      <p>CaptionPic is not directed to children under 13. If you believe a child has provided personal information through the app, please contact the developer so we can review the issue.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>We may update this Privacy Policy as the app changes. When we do, we will update the date at the top of this page.</p>
+
+      <h2>Contact</h2>
+      <p>For privacy questions, contact the developer through the CaptionPic App Store product page or the support channel listed with the app.</p>
+    </section>
+  </main>
+
+  <footer>
+    CaptionPic Privacy Policy. <a href="index.html">Back to CaptionPic</a>
+  </footer>
+</body>
+</html>
